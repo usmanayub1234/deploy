@@ -1,0 +1,222 @@
+.home-banner {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    height: 800px;
+    } 
+  
+    .home_banner_css {   position: relative;right: 8%;top: 320px; text-align: right;} 
+    .home-banner h1{margin: 0 0 10px 0; font-size: 48px; font-weight: 700; color:white;}
+    .home-banner h3{margin: 0 0 10px 0; font-size: 18px; font-weight: 700; color: #fff;}
+    .home-banner .readmore{
+    position: relative;
+    right: 20%;
+    top: 15px; 
+    padding: 10px 27px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(red), to(#c00));
+    background-image: linear-gradient(to bottom, red, #c00);
+    z-index: 0;
+    border-radius: 2px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 1.07;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    height: 53px;
+    cursor: pointer;
+    }
+
+    .home-banner  .buynow {
+    position: relative;
+    right: 12%;
+    bottom: 33px;
+    padding: 11px 35px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f36f24), to(#f36f24));
+    background-image: linear-gradient(to bottom, #f36f24, #f36f24);
+    z-index: 0;
+    border-radius: 2px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 1.07;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    height: 53px;
+    cursor: pointer;
+    }
+
+
+.portfolio_home_css{
+    /* display: flex; */
+    width: 100%;
+    background: #fff;
+}
+.portfolio_home_css .col-lg-4{
+    /* position: relative;
+    left: 20%; */
+    /* top: 45px; */
+    padding: 0px 0px 0px 90px;
+}
+
+.portfolio_home_css img {
+    width: 100%;
+    border:2px solid #fff;
+    width: 100%;
+     border: 2px solid #fff;
+     box-shadow: 0px 1px 0px #ccc; 
+     cursor: pointer;
+}
+
+
+
+.portfolio_home_css h1{
+    width: 100%;
+    /* margin-bottom: 40px; 
+     margin-top: 30px;  */
+    letter-spacing: 4px;
+    line-height: 6;
+    padding: 0px 0px;
+    font-size: 40px;
+    color: #000;
+    font-weight: 800;
+    /* border-bottom: 1px solid #80808063; */
+    /* background: #f36f249c; */
+    text-align: center;
+  }
+.portfolio_home_css .col-lg-4 h3{margin: 20px 0; font-size: 18px;  color: gray;    text-align: center;}
+.portfolio_home_css .content {
+    color: #000;
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+    font-size: 20px;
+}
+
+.portfolio_home_css .content span {   font-weight: 600; }
+
+.portfolio_home_css h4 {
+    background: #000;
+    padding: 0 10px;
+    /* color: antiquewhite; */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+}
+
+.banner3_css .content{
+    width: 35%;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+} 
+
+.banner3_css .content h2{   
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+}
+
+.banner3_css .content p{
+    color: #fff;
+    font-size: 16px;   
+    text-align: left;
+    padding: 18px 3px;
+}
+
+
+.banner3_css .content span{
+    padding: 12px 18px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f36f24), to(#f36f24));
+    background-image: linear-gradient(to bottom, #f36f24, #f36f24);
+    z-index: 0;
+    border-radius: 2px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 1.07;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    height: 53px;
+    cursor: pointer;
+    }
+
+
+.animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    }
+    @keyframes slideIn {
+    0% {
+    transform: translateY(1rem);
+    opacity: 0;
+    }
+    100% {
+    transform:translateY(0rem);
+    opacity: 1;
+    }
+    0% {
+    transform: translateY(1rem);
+    opacity: 0;
+    }
+    }
+    
+    @-webkit-keyframes slideIn {
+    0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+    }
+    0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+    }
+    }
+    
+    .slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+    }
+
+
+    @media all and (max-width : 768px) {
+
+.banner3_css .content {
+width: 55%;
+}
+
+
+.banner3_css .content p {
+color: #000;
+
+}
+.portfolio_home_css h1 {
+line-height: 2;
+} 
+
+.Footer ul li div {
+    color: #fff;
+    font-size: 13px;
+    padding: 20px 0px;
+}
+
+.home-banner .buynow {
+position: relative;
+right: 20%;
+bottom: 0px;
+top: 15px; 
+}
+
+.portfolio_home_css .col-lg-4 {
+padding: 0px 0px 0px 10px;
+}
+}
